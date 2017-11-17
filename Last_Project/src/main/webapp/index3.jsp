@@ -40,6 +40,9 @@
 	src="https://navermaps.github.io/maps.js/docs/js/base.js"></script>
 <script type="text/javascript"
 	src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=MK_1sBFRuO6XEvDi29iW&submodules=panorama,geocoder,drawing,visualization"></script>
+<!-- 카카오 스크립트 -->
+<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+
 
 <!-- ============================================================스타일 선언============================================================ -->
 <style type="text/css">
@@ -81,57 +84,81 @@
 	<br>
 	<br>
 	<br>
+
+		<table
+			style="width: 80% display: table; margin-left: auto; margin-right: auto;">
+
+			<tr>
+				<th>
+					<button type="button" class="btn btn-lg btn-primary"
+						style="margin-left: 5px; height: 45px">자유게시판1</button>
+					<button type="button" class="btn btn-lg btn-primary"
+						style="height: 45px">자유게시판2</button>
+					
+					<a id="kakao-login-btn" href="http://developers.kakao.com/logout" style="float:right"></a>
+ 
+			<!-- 		<button type="button" class="btn btn-lg btn-success"
+						style="margin-left: 400px; height: 45px; float: right">Log
+						In</button> -->
+				</th>
+			</tr>
+			<tr>
+				<th>
+					<div class="btn-group" role="group" aria-label="..."
+						style="display: table; margin-left: auto; margin-right: auto;margin-top:30px">
+						<button type="button" class="btn btn-default">Seoul</button>
+						<button type="button" class="btn btn-default">DaeJeon</button>
+						<button type="button" class="btn btn-default">DaeGu</button>
+						<button type="button" class="btn btn-default">BuSan</button>
+						<button type="button" class="btn btn-default">UlSan</button>
+						<button type="button" class="btn btn-default">JeJu</button>
+					</div>
+				</th>
+			</tr>
+			
+			<tr>
+				<th>
+					<div class="btn-group" role="group" aria-label="..."
+						style="display: table; margin-left: auto; margin-right: auto;">
+						<button type="button" class="btn btn-default">SeJong</button>
+						<button type="button" class="btn btn-default">InCheon</button>
+						<button type="button" class="btn btn-default">GwangJu</button>
+						<button type="button" class="btn btn-default">Jinju</button>
+						<button type="button" class="btn btn-default">GwaCheon</button>
+						<button type="button" class="btn btn-default">IlSan</button>
+					</div>
+				</th>
+			</tr>
+
+	<tr>
+	<th>
+		<form class="navbar-form navbar-left" role="search"
+		style="margin-left:-15px;margin-top:100px">
+		<div class="form-group">
+			<input type="text" class="form-control" placeholder="Search"
+				id="address" value="울산" style="height: 40px">
+		</div>
+		<button type="submit" class="btn btn-lg btn-primary" id=submit>검
+			색</button>
+	</form>
+	</th>
+	</tr>
+
+<tr>
+<th>
+<div style="width:100%;height:100%">
+	<div id="map"
+		style="width:100%;height:500px;margin-top:40px"></div>
 	
-	<button type="button" class="btn btn-lg btn-primary"
-		style="margin-left: 460px; height: 45px">자유게시판1</button>
-	<button type="button" class="btn btn-lg btn-primary" style="height: 45px">자유게시판2</button>
-	<button type="button" class="btn btn-lg btn-success" style="margin-left:820px; height: 45px">Log In</button>
-	<br>
-	<br>
-	
+
+</div>
+</th>
+</tr>
+		</table>
 
 
-	<div class="btn-group" role="group" aria-label="..."
-		style="display: table; margin-left: auto; margin-right: auto;">
-		<button type="button" class="btn btn-default">Seoul</button>
-		<button type="button" class="btn btn-default">DaeJeon</button>
-		<button type="button" class="btn btn-default">DaeGu</button>
-		<button type="button" class="btn btn-default">BuSan</button>
-		<button type="button" class="btn btn-default">UlSan</button>
-		<button type="button" class="btn btn-default">JeJu</button>
-		<br>
+	<!-- ===================맵 스크립트=================== -->
 
-		<button type="button" class="btn btn-default">SeJong</button>
-		<button type="button" class="btn btn-default">InCheon</button>
-		<button type="button" class="btn btn-default">GwangJu</button>
-		<button type="button" class="btn btn-default">Jinju</button>
-		<button type="button" class="btn btn-default">GwaCheon</button>
-		<button type="button" class="btn btn-default">IlSan</button>
-	</div>
-
-<br><br><br><br><br><br><br>
-
-	
-
-<form class="navbar-form navbar-left" role="search" style="margin-left:443px">
-  <div class="form-group">
-    <input type="text" class="form-control" placeholder="Search" id="address" value="울산" style="height:40px">
-  </div>
-  <button type="submit" class="btn btn-lg btn-primary" id=submit>검 색</button>
-</form>
-
-	<!-- 
- <form class="navbar-form navbar-left" role="search">
-        <div class="form-group">
-          
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form> -->
-<br><br><br><br>
-
-<!-- ===================맵 스크립트=================== -->
-<div id="map" style="width: 57.5%; height: 700px; display: table; margin-left: auto; margin-right: auto;"></div>
-<br><br><br><br><br><br><br><br><br><br>
 	<script>
 		var mapOptions = {
 			center : new naver.maps.LatLng(37.3595704, 127.105399),
@@ -305,12 +332,29 @@
 	</script>
 
 	<!-- ===================맵 스크립트 끝=================== -->
+<!-- ===================카카오 로그인 스크립트=================== -->
+
+<script type='text/javascript'>
+  //<![CDATA[
+    // 사용할 앱의 JavaScript 키를 설정해 주세요.
+    Kakao.init('0f2cb0fd8f1951449fa2c9a56129c2c2');
+    // 카카오 로그인 버튼을 생성합니다.
+    Kakao.Auth.createLoginButton({
+      container: '#kakao-login-btn',
+      success: function(authObj) {
+        alert(JSON.stringify(authObj));
+      },
+      fail: function(err) {
+         alert(JSON.stringify(err));
+      }
+    });
+    <!-- ===================카카오 로그인 스크립트=================== -->
+  //]]>
+</script>
 
 
 
-
-
-<!-- 
+	<!-- 
 
 	<!-- Bootstrap core JavaScript
     ==================================================
@@ -319,6 +363,6 @@
 		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="../../dist/js/bootstrap.min.js"></script>
 	IE10 viewport hack for Surface/desktop Windows 8 bug
-	<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> --> 
+	<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
 </body>
 </html>
