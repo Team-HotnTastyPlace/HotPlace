@@ -107,11 +107,11 @@
 				<th>
 					<div class="btn-group" role="group" aria-label="..."
 						style="display: table; margin-left: auto; margin-right: auto;margin-top:30px">
-						<button type="button" class="btn btn-default">Seoul</button>
-						<button type="button" class="btn btn-default">DaeJeon</button>
-						<button type="button" class="btn btn-default">DaeGu</button>
-						<button type="button" class="btn btn-default">BuSan</button>
-						<button type="button" class="btn btn-default">UlSan</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' ">Seoul</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' ">DaeJeon</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' ">DaeGu</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' ">BuSan</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' ">UlSan</button>
 						<button type="button" class="btn btn-default">JeJu</button>
 					</div>
 				</th>
@@ -121,12 +121,12 @@
 				<th>
 					<div class="btn-group" role="group" aria-label="..."
 						style="display: table; margin-left: auto; margin-right: auto;">
-						<button type="button" class="btn btn-default">SeJong</button>
-						<button type="button" class="btn btn-default">InCheon</button>
-						<button type="button" class="btn btn-default">GwangJu</button>
-						<button type="button" class="btn btn-default">Jinju</button>
-						<button type="button" class="btn btn-default">GwaCheon</button>
-						<button type="button" class="btn btn-default">IlSan</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' ">SeJong</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' ">InCheon</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' ">GwangJu</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' ">Jinju</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' ">GwaCheon</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' ">IlSan</button>
 					</div>
 				</th>
 			</tr>
