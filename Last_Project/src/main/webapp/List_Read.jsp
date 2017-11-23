@@ -30,26 +30,26 @@
 
 
 <!-- ============================================================스타일 선언============================================================ -->
-<style type="text/css">
-.btn-default {
-	width: 200px;
-	height: 50px;
-	font-size: 15px;
-}
-</style>
+
 <!-- ============================================================제이쿼리============================================================ -->
 <link rel="stylesheet"
 	href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 <link rel="stylesheet" href="/resources/demos/style.css">
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-<script>
-	$(function() {
-		$("#tabs").tabs();
-	});
-</script>
+
+<style type="text/css">
+	td{
+	 height: 50px;
+	 font-size:18px;
+	/*  text-align:center; */ 
+	 vertical-align:50%;
+	font-weight: bold;
+	
+	}
 
 
+</style>
 
 
 </head>
@@ -92,7 +92,7 @@
 				<button type="button" class="btn btn-lg btn-primary"
 					style="margin-left: 5px; height: 45px">게시판</button>
 				<button type="button" class="btn btn-lg btn-primary"
-					style="height: 45px">자유게시판</button> <a id="kakao-login-btn"
+					style="height: 45px">자유게시판2</button> <a id="kakao-login-btn"
 				href="http://developers.kakao.com/logout" style="float: right"></a>
 
 				<!-- 		<button type="button" class="btn btn-lg btn-success"
@@ -100,102 +100,65 @@
 						In</button> -->
 			</th>
 		</tr>
+		</table>
+		
+		<table class="table table-striped"  style="width:57% ; display: table; margin-left: auto; margin-right: auto;;margin-top:50px">
+		
 		<tr>
-			<th>
-				<div class="btn-group" role="group" aria-label="..."
-					style="display: table; margin-left: auto; margin-right: auto; margin-top: 30px">
-					<button type="button" class="btn btn-default">Seoul</button>
-					<button type="button" class="btn btn-default">DaeJeon</button>
-					<button type="button" class="btn btn-default">DaeGu</button>
-					<button type="button" class="btn btn-default">BuSan</button>
-					<button type="button" class="btn btn-default">UlSan</button>
-					<button type="button" class="btn btn-default">JeJu</button>
-				</div>
-			</th>
-		</tr>
-
-		<tr>
-			<th>
-				<div class="btn-group" role="group" aria-label="..."
-					style="display: table; margin-left: auto; margin-right: auto;">
-					<button type="button" class="btn btn-default">SeJong</button>
-					<button type="button" class="btn btn-default">InCheon</button>
-					<button type="button" class="btn btn-default">GwangJu</button>
-					<button type="button" class="btn btn-default">Jinju</button>
-					<button type="button" class="btn btn-default">GwaCheon</button>
-					<button type="button" class="btn btn-default">IlSan</button>
-				</div>
-			</th>
+			<th rowspan="9" style="width:30%">사진</th>
+			<td style="width:10% ">No.</td>
+			<td style="width:20%">.</td>
+			<td style="width:10%">조회수</td>
+			<td style="width:20%">.</td>
 		</tr>
 		<tr>
-			<th >
-
-				<div id="tabs" style="width: 100%; margin-top:50px ">
-					<ul>
-						<li><a href="#tabs-1">핫 플</a></li>
-						<li><a href="#tabs-2">맛 플</a></li>
-
-					</ul>
-					<div id="tabs-1">
-
-						<table class="table table-striped">
-							<tr>
-								<td style="width:52%" >1</td>
-								<td >6</td>
-							</tr>
-							<tr>
-								<td>2</td>
-								<td>7</td>
-							</tr>
-							<tr>
-							<td>3</td>
-							<td>8</td>
-							</tr>
-							<tr>
-								<td>4</td>
-								<td>9</td>
-							</tr>
-							<tr>
-							<td>5</td>
-							<td>10</td>
-							</tr>
-
-						</table>
-					</div>
-					<div id="tabs-2">
-					
-											<table class="table table-striped">
-							<tr>
-								<td style="width:52%">1</td>
-								<td>6</td>
-							</tr>
-							<tr>
-								<td>2</td>
-								<td>7</td>
-							</tr>
-							<tr>
-							<td>3</td>
-							<td>8</td>
-							</tr>
-							<tr>
-								<td>4</td>
-								<td>9</td>
-							</tr>
-							<tr>
-							<td>5</td>
-							<td>10</td>
-							</tr>
-
-						</table>
-					
-					
-					</div>
-
-				</div>
-			</th>
+			<td>글쓴이</td>
+			<td>.</td>
+			<td>작성일</td>
+			<td>.</td>
 		</tr>
-	</table>
-
+		<tr>
+			<td>제목</td>
+			<td colspan="3">.</td>
+			
+		</tr>
+		<tr>
+			<td>주소</td>
+			<td colspan="3">.</td>
+			
+		</tr>
+		<tr>
+			<td>연락처</td>
+			<td colspan="3">.</td>
+		</tr>
+		<tr>
+			<td>홈페이지</td>
+			<td colspan="3">.</td>
+		</tr>
+		<tr>
+			<td>영업시간</td>
+			<td colspan="3">.</td>
+		</tr>
+		<tr>
+			<td>평점</td>
+			<td>.</td>
+			<td>맛</td>
+			<td>.</td>
+			
+		</tr>
+		<tr>
+			<td>총점</td>
+			<td colspan="3" >.</td>
+			
+		</tr>
+		<tr></tr>
+		<tr style="width:57%">
+			<td>내용</td>
+			<td colspan="4" >.</td>
+			
+		</tr>
+</table>
+	
 
 
 

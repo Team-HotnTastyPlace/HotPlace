@@ -87,14 +87,14 @@
 	<br>
 
 		<table
-			style="width: 80% display: table; margin-left: auto; margin-right: auto;">
+			style="width: 57%; display: table; margin-left: auto; margin-right: auto;">
 
 			<tr>
 				<th>
 					<button type="button" class="btn btn-lg btn-primary"
-						style="margin-left: 5px; height: 45px">자유게시판1</button>
+						style="margin-left: 5px; height: 45px">게시판</button>
 					<button type="button" class="btn btn-lg btn-primary"
-						style="height: 45px">자유게시판2</button>
+						style="height: 45px">자유게시판</button>
 					
 					<a id="kakao-login-btn" href="http://developers.kakao.com/logout" style="float:right"></a>
  
