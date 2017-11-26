@@ -11,6 +11,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>메일 보내기</title>
+
+<!-- Bootstrap core CSS -->
+<link href="http://bootstrapk.com/dist/css/bootstrap.min.css"
+	rel="stylesheet">
+
+<link
+	href="http://bootstrapk.com/examples/starter-template/starter-template.css"
+	rel="stylesheet">
+<script
+	src="http://bootstrapk.com/assets/js/ie-emulation-modes-warning.js"></script>
+	
 <script>
 
 	function numcheck(){
@@ -45,6 +56,7 @@
 </script>
 </head>
 <body>
+
 	<h4>메일 보내기</h4>
 	<form:form method="post" commandName="mf1" action="mailSend">
 	     이메일 입력 : <input type="text" id="email" name="email" size="50" value="${email }">
@@ -59,5 +71,6 @@
 		<input type="hidden" name="ran" value="${ran }">
 		<input type="submit" value="인증번호 확인">
 	</form:form>
+	
 </body>
 </html>

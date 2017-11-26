@@ -12,33 +12,43 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title><spring:message code="login"/></title>
+
+<!-- Bootstrap core CSS -->
+<link href="http://bootstrapk.com/dist/css/bootstrap.min.css"
+	rel="stylesheet">
+
+<link
+	href="http://bootstrapk.com/examples/starter-template/starter-template.css"
+	rel="stylesheet">
+<script
+	src="http://bootstrapk.com/assets/js/ie-emulation-modes-warning.js"></script>
 </head>
 
 <body>
 
 
-	<h2><spring:message code="login"/></h2>
+	<h2 style="margin-left:35%; margin-top:10%"><spring:message code="login"/>&nbsp;<small>Log In</small></h2>
 
 <!-- 데이터 바인딩을 위해 :form commandName 사용 태그안에 path 값은 bean 객체 의미	 -->
 	<form:form commandName="loginCommand">
-		<table>
+		<table class="table" style="display: table; margin-left: auto; margin-right: auto;width:30%;margin-top:30px">
 			<tr>
-				<th><spring:message code="email"/></th>
-				<td>: <form:input path="email"/></td>
+				<th style="font-size:20px"><spring:message code="email"/></th>
+				<td> <form:input path="email" class="form-control"/></td>
 				<td> <form:errors path="email"/></td>
 			</tr>
 			<tr>
-				<th><spring:message code="password"/></th>
-				<td>: <form:password path="password"/></td>
+				<th style="font-size:20px;"><spring:message code="password"/></th>
+				<td> <form:password path="password" class="form-control"/></td>
 				<td> <form:errors path="password"/></td>
 			</tr>
 			<tr>
 				<th colspan="2">
-					<input type="submit" value="<spring:message code="login"/>">
+					<input type="submit" class="btn btn-primary" value="<spring:message code="login"/> ">
 				</th>
 			</tr>
 		</table>
-		<p>
+		<p style="margin-left:37%">
 		<spring:message code="rememberEmail"/>
 		<form:checkbox path="rememberEmail"/>
 		/ <a href="">비밀번호 찾기</a>
