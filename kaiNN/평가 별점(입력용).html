@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+
+<meta charset="euc-kr">
+
+<title>평가 별점</title>
+
+<script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+
+
+<!-- 평점 1 -->
+    <style type="text/css">
+		.star_rating00 {font-size:0; letter-spacing:-4px;}
+		.star_rating00 a {
+    		font-size:22px;
+    		letter-spacing:0;
+    		display:inline-block;
+    		margin-left:5px;
+    		color:#ccc;
+    		text-decoration:none;
+		}
+
+		.star_rating00 a:first-child {margin-left:0;}
+		.star_rating00 a.on {color:#777;}
+ 
+    </style>
+
+    <script>
+    $( document ).ready(function() {
+    	
+ 	   $( ".star_rating00 a" ).click(function() {
+ 	      $(this).parent().children("a").removeClass("on");
+    	  $(this).addClass("on").prevAll("a").addClass("on");
+			return false;
+   		});
+    });
+    </script>
+<!-- /평점 1-->
+
+
+</head>
+<body>
+
+<!-- 별점 1 -->			
+<p>
+<p>
+<p>
+<p>
+입력용 별점 : 클릭해 보세요
+			<p class="star_rating00">
+			    <a href="#" class="on">★</a>
+    			<a href="#" class="on">★</a>
+    			<a href="#" class="on">★</a>
+			    <a href="#">★</a>
+			    <a href="#">★</a>
+			</p>
+<!-- /별점 1 -->			
+
+
+</body>
+</html>
