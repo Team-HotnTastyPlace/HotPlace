@@ -140,7 +140,7 @@
 
 						<table class="table table-striped">
 							<tr>
-								<td style="width:52%" >1</td>
+								<td style="width:52%" ><a href="List_Read.jsp">1. 한 식 당</a></td>
 								<td >6</td>
 							</tr>
 							<tr>
