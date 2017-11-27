@@ -97,23 +97,25 @@
 					<button type="button" class="btn btn-lg btn-primary"
 						style="height: 45px">자유게시판</button>
 					
-					<a id="kakao-login-btn" href="http://developers.kakao.com/logout" style="float:right"></a>
+					<!-- <a id="kakao-login-btn" href="http://developers.kakao.com/logout" style="float:right"></a> -->
  
 			<!-- 		<button type="button" class="btn btn-lg btn-success"
 						style="margin-left: 400px; height: 45px; float: right">Log
 						In</button> -->
+						<button type="button" class="btn btn-lg btn-warning" style="float:right">회원 가입 </button>
+						<button type="button" class="btn btn-lg btn-success" style="float:right">로 그 인 </button>
 				</th>
 			</tr>
 			<tr>
 				<th>
 					<div class="btn-group" role="group" aria-label="..."
 						style="display: table; margin-left: auto; margin-right: auto;margin-top:30px;width:100%">
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp'" style="width: 16.7%">Seoul</button>
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">DaeJeon</button>
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">DaeGu</button>
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">BuSan</button>
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">UlSan</button>
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">JeJu</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2'" style="width: 16.7%">Seoul</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2' " style="width:16.7%">DaeJeon</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2' " style="width:16.7%">DaeGu</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2' " style="width:16.7%">BuSan</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2' " style="width:16.7%">UlSan</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2' " style="width:16.7%">JeJu</button>
 					</div>
 				</th>
 			</tr>
@@ -123,12 +125,12 @@
 				<th>
 					<div class="btn-group" role="group" aria-label="..."
 						style="display: table; margin-left: auto; margin-right: auto; width:100%">
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">SeJong</button>
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">InCheon</button>
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">GwangJu</button>
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">Jinju</button>
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">GwaCheon</button>
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">IlSan</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2' " style="width:16.7%">SeJong</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2' " style="width:16.7%">InCheon</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2' " style="width:16.7%">GwangJu</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2' " style="width:16.7%">Jinju</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2' " style="width:16.7%">GwaCheon</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2' " style="width:16.7%">IlSan</button>
 					</div>
 				</th>
 			</tr>

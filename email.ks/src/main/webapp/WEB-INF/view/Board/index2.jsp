@@ -104,12 +104,12 @@
 				<th>
 					<div class="btn-group" role="group" aria-label="..."
 						style="display: table; margin-left: auto; margin-right: auto;margin-top:30px;width:100%">
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp'" style="width: 16.7%">Seoul</button>
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">DaeJeon</button>
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">DaeGu</button>
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">BuSan</button>
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">UlSan</button>
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">JeJu</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2'" style="width: 16.7%">Seoul</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2' " style="width:16.7%">DaeJeon</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2' " style="width:16.7%">DaeGu</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2' " style="width:16.7%">BuSan</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2' " style="width:16.7%">UlSan</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2' " style="width:16.7%">JeJu</button>
 					</div>
 				</th>
 			</tr>
@@ -119,12 +119,12 @@
 				<th>
 					<div class="btn-group" role="group" aria-label="..."
 						style="display: table; margin-left: auto; margin-right: auto; width:100%">
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">SeJong</button>
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">InCheon</button>
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">GwangJu</button>
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">Jinju</button>
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">GwaCheon</button>
-						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">IlSan</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2' " style="width:16.7%">SeJong</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2' " style="width:16.7%">InCheon</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2' " style="width:16.7%">GwangJu</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2' " style="width:16.7%">Jinju</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2' " style="width:16.7%">GwaCheon</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = 'index2' " style="width:16.7%">IlSan</button>
 					</div>
 				</th>
 			</tr>
@@ -141,7 +141,7 @@
 
 						<table class="table table-striped">
 							<tr>
-								<td style="width:52%" ><a href="List_Read.jsp">1. 한 식 당</a></td>
+								<td style="width:52%" ><a href="List_Read">1. 한 식 당</a></td>
 								<td >6</td>
 							</tr>
 							<tr>
