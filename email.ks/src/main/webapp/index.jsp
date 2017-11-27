@@ -151,7 +151,7 @@
 <th>
 <div style="width:100%;height:100%">
 	<div id="map"
-		style="width:100%;height:500px;margin-top:40px"></div>
+		style="width:100%;height:750px;margin-top:40px"></div>
 	
 
 </div>
