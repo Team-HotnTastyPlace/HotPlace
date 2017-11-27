@@ -11,9 +11,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+
+
 <title><spring:message code="login"/></title>
 
-<!-- Bootstrap core CSS -->
 <link href="http://bootstrapk.com/dist/css/bootstrap.min.css"
 	rel="stylesheet">
 

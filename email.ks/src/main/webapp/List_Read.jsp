@@ -114,7 +114,7 @@ td {
 		style="width: 57%; display: table; margin-left: auto; margin-right: auto;; margin-top: 50px">
 
 		<tr>
-			<th rowspan="9" style="width: 30%"><img src="https://www.localnaeil.com/FileData/Article/201705/205cea3c-efb2-4e34-94c9-90e5d3f05dd3_p.JPG"></th>
+			<th rowspan="9" style="width: 50%"><img src="https://www.localnaeil.com/FileData/Article/201705/205cea3c-efb2-4e34-94c9-90e5d3f05dd3_p.JPG" style="width:100%"></th>
 			<td style="width: 10%">No.</td>
 			<td style="width: 20%">.</td>
 			<td style="width: 10%">조회수</td>
@@ -196,8 +196,8 @@ td {
   </ul>
 	
 </div>
-<input type="text" style="width:83%;height:43px;margin-top:8px" >
-<button class="btn btn-lg btn-default" type="button" style="height:45px;margin-top:-5px">댓글달기</button>
+<input type="text" style="width:75%;height:43px;margin-top:8px" >
+<button class="btn btn-lg btn-default" type="button" style="height:45px;margin-top:-5px;width:13%">댓글달기</button>
 </td>
 		
 		

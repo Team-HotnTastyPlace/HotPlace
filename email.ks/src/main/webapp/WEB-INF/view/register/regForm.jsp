@@ -28,7 +28,7 @@
 </head>
 <body>
 
-	<h2 style="margin-left:35%;margin-top:10%">
+	<h2 style="margin-left:35%;margin-top:3%">
 		<spring:message code="member.info" />
 	</h2>
 	<!-- spring:message code: 룩업할 메세지의 키를 지정해줌. 지정하지 않으면 text에 입력한 값출력 -->
