@@ -100,33 +100,34 @@
 						In</button> -->
 			</th>
 		</tr>
-		<tr>
-			<th>
-				<div class="btn-group" role="group" aria-label="..."
-					style="display: table; margin-left: auto; margin-right: auto; margin-top: 30px">
-					<button type="button" class="btn btn-default">Seoul</button>
-					<button type="button" class="btn btn-default">DaeJeon</button>
-					<button type="button" class="btn btn-default">DaeGu</button>
-					<button type="button" class="btn btn-default">BuSan</button>
-					<button type="button" class="btn btn-default">UlSan</button>
-					<button type="button" class="btn btn-default">JeJu</button>
-				</div>
-			</th>
-		</tr>
-
-		<tr>
-			<th>
-				<div class="btn-group" role="group" aria-label="..."
-					style="display: table; margin-left: auto; margin-right: auto;">
-					<button type="button" class="btn btn-default">SeJong</button>
-					<button type="button" class="btn btn-default">InCheon</button>
-					<button type="button" class="btn btn-default">GwangJu</button>
-					<button type="button" class="btn btn-default">Jinju</button>
-					<button type="button" class="btn btn-default">GwaCheon</button>
-					<button type="button" class="btn btn-default">IlSan</button>
-				</div>
-			</th>
-		</tr>
+			<tr>
+				<th>
+					<div class="btn-group" role="group" aria-label="..."
+						style="display: table; margin-left: auto; margin-right: auto;margin-top:30px;width:100%">
+						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp'" style="width: 16.7%">Seoul</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">DaeJeon</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">DaeGu</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">BuSan</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">UlSan</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">JeJu</button>
+					</div>
+				</th>
+			</tr>
+			
+			<tr>
+			 
+				<th>
+					<div class="btn-group" role="group" aria-label="..."
+						style="display: table; margin-left: auto; margin-right: auto; width:100%">
+						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">SeJong</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">InCheon</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">GwangJu</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">Jinju</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">GwaCheon</button>
+						<button type="button" class="btn btn-default" onclick = "location.href = './index2.jsp' " style="width:16.7%">IlSan</button>
+					</div>
+				</th>
+			</tr>
 		<tr>
 			<th >
 
