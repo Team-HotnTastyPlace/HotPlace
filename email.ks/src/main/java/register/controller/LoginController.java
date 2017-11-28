@@ -18,12 +18,10 @@ import register.spring.LoginCommand;
 import register.validator.LoginCommandValidator;
 
 @Controller
-
-
 @RequestMapping("/login/loginForm")
 public class LoginController {
 	
-	//authService : ?
+	
 	
 	private AuthService authService;
 	
@@ -31,10 +29,9 @@ public class LoginController {
 		this.authService = authService;
 	}
 	
-	@RequestMapping(method=RequestMethod.GET)
-	
+	@RequestMapping(method=RequestMethod.GET)       //직접 호출시 
 	public String form(LoginCommand loginCommand,
-			@CookieValue(value="REMEMBER", required=false)Cookie cookie) {  //쿠키값 가져오기 ? 
+			@CookieValue(value="REMEMBER", required=false)Cookie cookie) {  //쿠키값 가져오기 ??? 
 		if(cookie != null) {
 			loginCommand.setEmail(cookie.getValue());
 			loginCommand.setRememberEmail(true);
@@ -42,7 +39,7 @@ public class LoginController {
 		return "login/loginForm";
 	}
 	
-	@RequestMapping(method=RequestMethod.POST)
+	@RequestMapping(method=RequestMethod.POST)     //submit클릭 호출시 
 	public String submit(LoginCommand loginCommand, Errors errors,
 			HttpSession session, HttpServletResponse response,
 			Model model) {
