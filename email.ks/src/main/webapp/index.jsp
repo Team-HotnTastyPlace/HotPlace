@@ -102,8 +102,8 @@
 			<!-- 		<button type="button" class="btn btn-lg btn-success"
 						style="margin-left: 400px; height: 45px; float: right">Log
 						In</button> -->
-						<button type="button" class="btn btn-lg btn-warning" style="float:right">회원 가입 </button>
-						<button type="button" class="btn btn-lg btn-success" style="float:right">로 그 인 </button>
+						<button type="button" class="btn btn-lg btn-default" style="float:right;width:15%">회원 가입 </button>
+						<button type="button" class="btn btn-lg btn-default" style="float:right;width:15%">로 그 인 </button>
 				</th>
 			</tr>
 			<tr>
