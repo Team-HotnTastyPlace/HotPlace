@@ -183,7 +183,7 @@ public class BoardController {
 					
 					if(saveFileName != null && !saveFileName.equals("")) {
 						if(new File(uploadPath + saveFileName).exists()) {
-//							saveFileName = saveFileName + "_" + System.currentTimeMillis();
+							saveFileName = saveFileName.substring(0, saveFileName.lastIndexOf(".")) + "_" + System.currentTimeMillis() + saveFileName.substring(saveFileName.lastIndexOf("."));
 						}
 						
 						try {
